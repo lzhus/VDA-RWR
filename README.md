@@ -1,11 +1,11 @@
 # VDA-RWR
-This project is used for prioritizing anti-viral drugs against SARS-CoV-2.
+This project is used for prioritizing antiviral drugs against SARS-CoV-2.
 
 Introduction
 ---
 The _data_ folder contain 3 files.
 
-+ virus-drug assciation matrix: the association between viruses and drugs
++ virus-drug association matrix: the associations between viruses and drugs
 
 + virus similarity matrix: the similarity matrix between viruses
 
@@ -18,4 +18,4 @@ Usage
 The VDA-RWR is writed by python. Therefore, please install Python and numpy pakage.  
 
 In _VDA-RWR.py_ file:  
-```fun(A, Sd, Sv)``` need three arguments, A presedents assciation matrix, Sd presedents drug similarity matrix, Sv presedents virus similarity matrix. It will return a matrix with score of each virus-drug interaction.
+```fun(A, Sd, Sv)``` needs three arguments, A denotes association matrix, Sd denotes drug similarity matrix, Sv denotes virus similarity matrix. It will return a score matrix for virus-drug associations.
